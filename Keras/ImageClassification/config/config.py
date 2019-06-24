@@ -11,7 +11,7 @@ BASE_PATH = "dataset"
 # define the names of the training, testing, and validation
 # directories
 TRAIN = "training"
-TEST = "evaluation"
+#TEST = "evaluation"
 VAL = "validation"
 
 # initialize the list of class label names

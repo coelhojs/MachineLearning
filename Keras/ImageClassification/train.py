@@ -35,13 +35,13 @@ def load_data_split(splitPath):
 # derive the paths to the training and testing CSV files
 trainingPath = os.path.sep.join([config.BASE_CSV_PATH,
 	"{}.csv".format(config.TRAIN)])
-testingPath = os.path.sep.join([config.BASE_CSV_PATH,
-	"{}.csv".format(config.TEST)])
+validationPath = os.path.sep.join([config.BASE_CSV_PATH,
+	"{}.csv".format(config.VAL)])
 
 # load the data from disk
 print("[INFO] loading data...")
 (trainX, trainY) = load_data_split(trainingPath)
-(testX, testY) = load_data_split(testingPath)
+(testX, testY) = load_data_split(validationPath)
 
 # load the label encoder from disk
 le = pickle.loads(open(config.LE_PATH, "rb").read())

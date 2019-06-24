@@ -102,3 +102,4 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+Keras/ImageClassification/dataset/Vera-Species ORIGINAL.7z

@@ -9,7 +9,8 @@ from config import config
 from imutils import paths
 
 # loop over the data splits
-for split in (config.TRAIN, config.TEST, config.VAL):
+#for split in (config.TRAIN, config.TEST, config.VAL):
+for split in (config.TRAIN, config.VAL):
     # grab all image paths in the current split
     print("[INFO] processing '{} split'...".format(split))
     p = os.path.sep.join([config.ORIG_INPUT_DATASET, split])

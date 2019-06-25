@@ -6,7 +6,7 @@ ORIG_INPUT_DATASET = "D:/Desenvolvimento/3.Projetos/MachineLearning/Keras/ImageC
 
 # initialize the base path to the *new* directory that will contain
 # our images after computing the training and testing split
-BASE_PATH = "dataset"
+BASE_PATH = "D:/Desenvolvimento/3.Projetos/MachineLearning/Keras/ImageClassification/dataset"
 
 # define the names of the training, testing, and validation
 # directories

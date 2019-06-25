@@ -23,7 +23,7 @@ le = None
 for split in (config.TRAIN, config.VAL):
     # grab all image paths in the current split
     print("[INFO] processing '{} split'...".format(split))
-    p = os.path.sep.join([config.BASE_PATH, split])
+    p = os.path.sep.join([config.ORIG_INPUT_DATASET, split])
     imagePaths = list(paths.list_images(p))
 
     # randomly shuffle the image paths and then extract the class
